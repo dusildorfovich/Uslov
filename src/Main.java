@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int nachSchet = 0;
-        int popoln = 536;
-        if (popoln > 1000) {
-            int bonus = popoln / 100;
-            System.out.println(nachSchet + popoln + bonus);
-        } else System.out.println(nachSchet + popoln);
+        int mobileAccount = 0;
+        int addFunds = 1100;
+        if (addFunds > 1000) {
+            int bonus = addFunds / 100;
+            System.out.println(bonus);
+            System.out.println(mobileAccount + addFunds + bonus);
+        } else System.out.println(mobileAccount + addFunds);
     }
 }
